@@ -1,0 +1,70 @@
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* .column img:hover {
+    opacity: 1;
+} */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.expanded {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15pc;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* .column {
+    float: left;
+    width: auto;
+    border-radius: 14px; 
+    background-color: red;
+    border: 10px solid black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    float: left;
+    max-height: 45vw;
+    min-height: 45vw;
+    max-width:30vw;
+    min-width: 30vw;
+    object-fit: cover;
+}  */
+

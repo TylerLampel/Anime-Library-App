@@ -12,8 +12,16 @@
 
     <body>
         <h2>Anime Library</h2>
-        <div id="root">
+        <div id="root" class="row">
             <!-- interjecting elements here -->
+        </div>
+        <!-- expanding image container -->
+        <div class="expanded">
+            <!-- close image -->
+            <span onclick="this.parentElement.display='none'" class="closebtn">&times;</span>
+            <!-- expanded image -->
+            <img id="expandedCard" style="width:100%">
+            <div id="imgtext"></div>
         </div>
     </body>
 </html>
