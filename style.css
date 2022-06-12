@@ -1,21 +1,20 @@
 #root {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .column {
     float: left;
-    width: 30%;
+    width: 25%;
     padding: 10px;
 }
+
 .column img {
     opacity: 0.8;
-    cursor: pointer;
+    width: 225px;
+    height: 335px;
 }
 
-/* .column img:hover {
-    opacity: 1;
-} */
 
 .row:after {
     content: "";
@@ -44,27 +43,3 @@
     font-size: 35px;
     cursor: pointer;
 }
-
-/* .column {
-    float: left;
-    width: auto;
-    border-radius: 14px; 
-    background-color: red;
-    border: 10px solid black;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-img {
-    float: left;
-    max-height: 45vw;
-    min-height: 45vw;
-    max-width:30vw;
-    min-width: 30vw;
-    object-fit: cover;
-}  */
-

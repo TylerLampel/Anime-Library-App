@@ -1,5 +1,5 @@
 
-// create anime card //
+// create anime card 
 function createAnimeCard(anime) {
     const root = document.getElementById('root')
     const container = document.createElement('div')
@@ -14,14 +14,16 @@ function createAnimeCard(anime) {
     animeCard.addEventListener("mouseleave", event => {
         event.target.style = "opacity: 0.8"
     })
+    animeCard.addEventListener("click", expandAnimeCard(animeCard))
 }
 
-function expandAnimeCard(anime) {
-    let expandedCard = document.getElementById("expandedImg");
+// expand animeCard
+function expandAnimeCard(animeCard) {
+    let expandedCard = document.getElementById("expandedCard");
     // let imgText = document.getElementById("imgtext");
-    expandedCard.src= img.src;
+    expandedCard.src= animeCard.src;
     // imgText.innerHTML = imgs.alt;
-    expandedCard.parent.Element.style.display = "block";
+    expandedCard.parentElement.style.display = "block";
 }
 
 
