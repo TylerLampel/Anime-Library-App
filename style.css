@@ -1,4 +1,4 @@
-#root {
+/* #root {
     max-width: 1200px;
     margin: auto;
 }
@@ -16,17 +16,38 @@
 }
 
 
+
 .row:after {
     content: "";
     display: table;
     clear: both;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr)) ;
+    min-height: 100vh;
+    grid-gap: 2rem;
+}
 
-#imgtext {
-    position: absolute;
-    bottom: 15pc;
-    left: 15px;
-    color: white;
-    font-size: 20px;
+.column {
+   overflow: hidden; 
+}
+
+.column img {
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.column img:hover {
+    transform: scale(1.2);
 }
