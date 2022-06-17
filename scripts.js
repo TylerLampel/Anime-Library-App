@@ -28,7 +28,7 @@ function createAnimeCard(anime) {
         event.target.style = "opacity: 1"
     });
     animeCard.addEventListener("mouseleave", event => {
-        event.target.style = "opacity: 0.8"
+        event.target.style = "opacity: 0.6"
     });
 // listens for a click on each card to open the larger image
     animeCard.addEventListener("click", () => {
