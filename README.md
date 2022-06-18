@@ -1,4 +1,4 @@
- Anime Library
+# Anime Library
 
 Anime library is a picture gallery of anime shows.
 
