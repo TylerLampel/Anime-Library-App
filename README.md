@@ -17,7 +17,7 @@ The Anime Library contains a list of anime shows populated by the Jikan API. [Li
 3. Then to go back to the gallery, all you have to do is click outside of the image.
 
 
-[Image](vscode-remote://wsl%2Bubuntu/home/owruckus/Developement/code/phase-1/phase-1-project/project%201%20gif.mp4)
+![Alt Text](https://media.giphy.com/media/1Kbz4lCRS8zPJJWuut/giphy.gif)
 
 
 ## Authors and Acknowledgment
