@@ -21,25 +21,25 @@ function createAnimeCard(anime) {
     const container = document.createElement('div')
     container.setAttribute('class', 'img-container')
 
-// images
+//  IMAGE SOURCES
 
     const animeCard = document.createElement('img');
     animeCard.src = anime.images.jpg.image_url;
     animeCard.alt = anime.title;
 
-// make images original data the large image
+// MAKES THE DATA ORIGINAL ATTRIBUTE THE FULL IMG
 
     animeCard.setAttribute('data-original', `${anime.images.jpg.large_image_url}`);
 
-//add image container to root
+//ADD IMAGE CONTAINER TO GALLERY
 
     gallery.appendChild(container);
 
-//add images to container
+//ADD IMAGES TO CONTAINER
 
     container.appendChild(animeCard);
 
-//change opacity of picture when hovered
+//CHANGE OPACITY WHEN HOVERED OVER
 
     animeCard.addEventListener("mouseenter", event => {
         event.target.style = "opacity: 1"
