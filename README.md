@@ -13,3 +13,10 @@ The Anime Library contains a list of anime shows populated by the Jikan API. [Li
 2. It will pop up a larger image with the title below.
 
 3. Then to go back to the gallery, all you have to do is click outside of the image.
+
+
+## Authors and Acknowledgment
+
+Author: Tyler Lampel
+
+Acknowledgment: [Link]https://jikan.moe/
