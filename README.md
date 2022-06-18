@@ -1,4 +1,4 @@
-# Anime Library
+ Anime Library
 
 Anime library is a picture gallery of anime shows.
 
@@ -9,6 +9,7 @@ The Anime Library contains a list of anime shows populated by the Jikan API. [Li
 ## Usage
 
 1. When you click on an anime thumbnail.
+
 
 2. It will pop up a larger image with the title below.
 
