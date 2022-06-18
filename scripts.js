@@ -48,30 +48,30 @@ function createAnimeCard(anime) {
         event.target.style = "opacity: 0.6"
     });
 
-// listens for a click on each card to open the larger image
+// LISTENS FOR A CLICK ON EACH CARD TO OPEN THE LARGER IMAGE
 
     animeCard.addEventListener("click", () => {
 
-// opens the modal
+// OPENS THE MODAL
 
         modal.classList.add("open");
 
-// opens the large image
+// OPENS THE FULL IMAGE
 
         largeAnimeCard.classList.add("open");
 
-// set large image source to the large image
+// SET FULL IMAGE SOURCE
 
         const largeImageSrc = animeCard.getAttribute("data-original");
         largeAnimeCard.src = largeImageSrc;
 
-// set text anime title
+// SET TEXT TO ANIME TITLE
 
         const altText = animeCard.alt;
         animeTitle.textContent = altText
     });
 
-// closes modal and image when clicked on
+// CLOSES MODAL WHEN EMPTINESS IS CLICKED
 
     modal.addEventListener('click', (event) => {
         if(event.target.classList.contains("modal")) {
