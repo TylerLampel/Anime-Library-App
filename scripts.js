@@ -45,7 +45,7 @@ function createAnimeCard(anime) {
         event.target.style = "opacity: 1"
     });
     animeCard.addEventListener("mouseleave", event => {
-        event.target.style = "opacity: 0.6"
+        event.target.style = "opacity: 0.7"
     });
 
 // LISTENS FOR A CLICK ON EACH CARD TO OPEN THE LARGER IMAGE
