@@ -74,6 +74,7 @@ h2 {
 .modal p {
     font-family: OCR A Std, monospace;
     color: white;
+    background-color: rgba(0, 0, 0, -1);
     font-size: 2rem;
     position: absolute;
     bottom: 5%;
