@@ -10,11 +10,11 @@ The Anime Library contains a list of anime shows populated by the Jikan API. [Li
 
 1. When you click on an anime thumbnail.
 
-![project-1-screenshot](https://user-images.githubusercontent.com/101515101/174205586-7e48f705-e3c2-4783-b090-867eba7a9773.png)
+
 
 2. It will pop up a larger image with the title below.
 
-![project-1-screenshot2](https://user-images.githubusercontent.com/101515101/174205802-995c7936-e729-47bc-a075-339354c31f3e.png)
+
 
 
 3. Then to go back to the gallery, all you have to do is click outside of the image.
